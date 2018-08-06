@@ -1,0 +1,111 @@
+body {
+  color: #757575;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #EFEFEF; }
+  body header {
+    display: flex;
+    margin-bottom: 30px; }
+    body header .logo {
+      width: 40%; }
+    body header nav {
+      text-align: center;
+      width: 60%;
+      justify-content: space-around;
+      display: flex;
+      border-bottom: 1px solid #94928C;
+      border-top: 1px solid black;
+      margin-bottom: 25px;
+      align-self: flex-end;
+      vertical-align: middle; }
+      body header nav a {
+        text-decoration: none;
+        color: #FC5830;
+        line-height: 55px; }
+  body input, body textarea {
+    width: 98%;
+    margin-bottom: 20px; }
+  body .main-wrapper {
+    padding-left: 12%;
+    padding-right: 12%; }
+  body h1, body h3, body .contact-form h4, body button, body nav {
+    text-transform: uppercase; }
+  body p {
+    line-height: 150%; }
+
+div .post-list {
+  clear: both;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px; }
+  div .post-list article {
+    margin-bottom: 25px;
+    width: 46%;
+    background-color: #FFFFFF;
+    padding: 10px; }
+    div .post-list article h3 {
+      margin-top: 0px;
+      padding-top: 10px;
+      border-top: 1px solid #94928C; }
+    div .post-list article div {
+      margin-left: 10px;
+      margin-right: 10px; }
+    div .post-list article h3 {
+      color: #617D8A; }
+div img {
+  width: 100%; }
+
+button, .toolbar input {
+  float: right;
+  width: 15%;
+  height: 35px; }
+
+button {
+  background-color: #FC5830;
+  color: white;
+  border: none; }
+  button h1 {
+    margin-bottom: 0px; }
+
+footer {
+  clear: both; }
+  footer span {
+    font-size: 12px; }
+
+.formGroup input {
+  padding-left: 15px;
+  height: 35px; }
+
+#contact_message {
+  padding-left: 15px;
+  width: 98%;
+  padding-top: 10px; }
+
+.contact-form h1, .contact-form h4, .about h1, .about h4 {
+  color: #FC5830;
+  text-align: right; }
+
+.contact-form h4 {
+  margin-top: 5px; }
+.contact-form h1 {
+  margin-bottom: 0px; }
+
+.about {
+  margin-bottom: 60px; }
+
+.post-description {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  color: #617D8A; }
+
+.toolbar input {
+  padding-left: 15px;
+  color: #FC5830;
+  border: 1px solid #FC5830; }
+.toolbar ::placeholder {
+  color: #FC5830; }
+
+textarea {
+  font-size: 14px; }
