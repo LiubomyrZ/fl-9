@@ -103,7 +103,8 @@ footer {
 .toolbar input {
   padding-left: 15px;
   color: #FC5830;
-  border: 1px solid #FC5830; }
+  border: 1px solid #FC5830;
+  background-color: #EFEFEF; }
 .toolbar ::placeholder {
   color: #FC5830; }
 
