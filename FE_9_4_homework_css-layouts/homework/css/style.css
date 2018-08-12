@@ -1,0 +1,287 @@
+body{
+    font-family: Open Sans;
+    margin: 0px;
+}
+header{
+    background: url("../img/apples.jpg") no-repeat center center;
+    background-size: cover;
+    max-width: 100%;
+}
+.flex{
+    display: flex;
+}
+.flex1{
+    flex: 1;
+}
+section div{
+    width: 100%;
+}
+.firstSection{
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+a{
+    text-decoration: none;
+    color: #E8E8E8; 
+}
+.navHolder a{
+    border-bottom: 2px solid transparent;
+    padding-bottom: 10px;
+}
+.navHolder a:hover{
+    border-bottom: 2px solid #B7C8D9;
+}
+.fontSmall{
+    color: #E8E8E8; 
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+nav{
+    align-items: center;
+    justify-content: space-around;
+}
+footer nav{
+    justify-content: flex-end;
+}
+footer{
+    background-color: #FFF
+}
+section, header, footer{
+    padding-right: 45px;
+    padding-left: 45px;
+}
+.navHolder{
+    padding-top: 37px;
+    color: #F3F3F3;
+}
+section:nth-child(3){
+    background-color: #F3F3F3;
+}
+header .emblemHolder p{
+    color: #FFF;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 11%;
+    margin-bottom: -6px;
+    letter-spacing: 9px;
+}
+.emblemHolder span:nth-child(1){
+    font-size: 4.5rem;
+    margin-bottom: 2%;
+}
+.subNavHolder{
+    text-align: center;
+}
+.firstSection p:nth-child(1), .central p:nth-child(1), .midlfont{
+    font-size: 110%;
+}
+.readMore button{
+    width: 185px;
+    height: 50px;
+    background-color: #000;
+    opacity: 0.6;
+    border: 2px solid #FFF;
+    margin-bottom: 8%;
+}
+.subEmblem{
+    margin-bottom: 15%;
+}
+.emblemHolder span:nth-child(2){
+    vertical-align: text-top;
+    font-size: 30%;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.navHolder nav a:nth-child(1){
+    margin-left: 20%;
+}
+.navHolder span{
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+.footer  p{
+    color: #A4A4A4;
+}
+.inrutButton input::placeholder, footer a{
+    color: #000;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+button{
+    background-color: #343638;
+    border: 2px solid #343638;
+}
+footer nav a:not(:first-child){
+    margin-left: 9%;
+}
+.midlfont span{
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+.footer:nth-child(1) p, .footer:nth-child(2) p{
+    padding-right: 4%;
+}
+.footer:nth-child(3) p{
+    line-height: 200%;
+}
+.footer:nth-child(3) p:not(:last-child){
+    line-height: 160%;
+}
+.footer:nth-child(2) p:not(:last-child){
+    font-style: italic;
+}
+.footer:nth-child(2) p:last-child{
+    color: #E8E8E8;
+}
+.footer:nth-child(4) p{
+    font-size: 0.8rem;
+    line-height: 150%;
+    padding-bottom: 5%;
+}
+.supFooter input {
+    font-size: 0.7rem;
+    text-indent: 5%;
+    border: 2px solid #343638;  
+    background-color: #F3F3F3;
+    height: 35px;
+    width: 155%;
+} 
+.supFooter input::placeholder {
+    color: #343638;
+}
+.supFooter .inputButton button{
+    height: 41px;
+    width: 71%;
+}
+footer{
+    height: 60px;
+    margin-top: 9%;
+    justify-content: space-between;
+}
+footer div{
+    align-items: center;
+}
+footer div, .footerNav{
+    border-top: 2px solid #E8E8E8;
+}
+.footerNav nav{
+    align-items: center;
+    justify-content: flex-end;
+}
+.fontBlack{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #000;
+}
+.alignCenter{
+    text-align: center;
+}
+.buttonHolder .midlfont{
+    width: 35%;
+    display: block;
+    text-align: center;
+}
+.buttonHolder input{
+    box-sizing: border-box;
+    width: 75%;
+    height: 45px;
+    border: 2px solid #343638;
+    background-color: #F3F3F3;
+    text-indent: 4%;
+}
+.buttonHolder button{
+    box-sizing: border-box;
+    width: 20%;
+    height: 45px;
+}
+.buttonHolder{
+    width: 100%;
+    background-color: #FFF;
+    height: 30%;
+    align-items: center;
+    height: 140px;
+    margin-top: 6%;
+}
+.central {
+    width: 100%;
+    padding-bottom: 12%;
+    padding-top: 8%;
+}
+.lust{
+    margin-top: 7%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    grid-auto-rows: minmax(23vw, auto);
+    font-size: 0.8em;
+    font-weight: bold;  
+    color: #F3F3F3;  
+    margin-top: 6%;
+}
+.grid div span{
+    font-size: 1em;
+}   
+.grid div{
+    clear: both;
+}
+.grid div div:nth-child(1) {
+    width: 45px;
+    float: right;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 2px solid #FFF;   
+    background: #343638; 
+    padding: 7px;   
+}    
+.subTitle{
+    position: absolute;
+    left: 10px;
+    bottom: 4px;
+    padding-left: 10px;
+}
+#grid1{
+    grid-column: 1/3;
+    background:  url("../img/sample.jpg") no-repeat center center; 
+    max-width: 100%;
+    box-shadow: inset -9px -45px 145px #343638; 
+}
+.grid div:nth-child(4){
+    grid-column: 2/-1;
+    background:  url("../img/sample3.jpg") no-repeat center center;
+    grid-row: 2 ;
+}
+.grid div:nth-child(5){
+    grid-column: 1/3;
+    background:  url("../img/sample.jpg") no-repeat center center;
+    grid-row: 3 ;
+}
+.grid div:nth-child(8){
+    grid-column: 2/-1;
+    background:  url("../img/sample3.jpg") no-repeat center center; 
+    grid-row: 4 ; 
+}
+.grid div:nth-child(8), .grid div:nth-child(5), .grid div:nth-child(4), #grid1{
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;   
+    box-shadow: inset -9px -45px 145px #343638;
+    position: relative;
+}
+.gridText{
+    display: flex;
+    color: #343638;
+    text-align: center;
+    align-items: center;
+}
+.subTitle span:nth-child(1){
+    font-weight: normal;
+}
+
