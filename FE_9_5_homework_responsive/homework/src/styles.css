@@ -16,6 +16,7 @@ header{
 nav a{
   text-decoration: none;
   color: #5d5d5d;
+  margin-left: 3%;
 }
 nav a:hover{
   color: #54597d; 
