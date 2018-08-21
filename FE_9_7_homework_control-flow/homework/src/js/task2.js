@@ -17,7 +17,7 @@ if (confirm('Do you want to play a game?')) {
             var numberPrompt = parseInt(prompt(`Enter a number in range [ 0 ; ${maxRange} ] 
             Attempts left: ${attemptCount-i}
             Total prize: ${sumPrize} $
-            Posible prize on carrent attempt: ${attemptPrize[i] * prizeMultiplier} $ `))
+            Posible prize on carrent attempt: ${attemptPrize[i] * prizeMultiplier} $ `));
             
             if (randomNumber === numberPrompt) {
                 sumPrize += attemptPrize[i] * prizeMultiplier;
